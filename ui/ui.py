@@ -6,9 +6,15 @@ Created on Jun 11, 2015
 
 class UserInterface:
 
-    def __init__(self):
-        '''
-        Constructor
-        '''
+    def __init__(self,crawler):
+
+        self.link = "" #Website link
+        self.crawler = crawler
+        
     def run(self):
-        print("Running")
+        
+        while True:
+            
+            self.link = input("Please insert website url: ") #Get website link + validate
+            
+            
