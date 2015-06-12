@@ -48,6 +48,6 @@ class UserInterface:
             
             
             #Crawl website
-            self.crawler.crawl(self.link)
+            self.crawler.run(self.link)
             
             
