@@ -15,7 +15,7 @@ class UserInterface:
      
      
     def sign(self):
-        #logo
+        # Logo initialization
         self.logo = """  ______                 _ _    _____                    _           
  |  ____|               (_) |  / ____|                  | |          
  | |__   _ __ ___   __ _ _| | | |     _ __ __ ___      _| | ___ _ __ 
@@ -27,27 +27,23 @@ class UserInterface:
         print(self.logo)
     
     def cls(self):
-        #Clear Screen
+        # Clear Screen
         os.system(['clear','cls'][os.name == 'nt'])
 
     def run(self):
-        
         while True:
-           
-            #Clear screen 
+
+            # Clear screen
             self.cls()
             
-            #Logo
+            # Logo
             self.sign()
             
-            #Get website link + validate
+            # Get website link + validate
             self.link = input("Please insert website url: ")
             
-            #Get file to save link
+            # Get file to save link
             self.file = input("Please insert filename to save links : ")
             
-            
-            #Crawl website
+            # Crawl website
             self.crawler.run(self.link)
-            
-            
