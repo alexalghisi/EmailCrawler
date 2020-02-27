@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 class Crawler:
     '''
-    classdocs
+    The root of de BFS.
     '''
 
     def __init__(self):

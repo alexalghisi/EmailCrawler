@@ -1,7 +1,7 @@
 '''
 Created on Jun 11, 2015
 
-@author: nex
+@author: Alessandro
 '''
 
 from tools.crawler import Crawler
