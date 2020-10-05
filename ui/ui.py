@@ -9,11 +9,11 @@ import os
 class UserInterface:
 
     def __init__(self,crawler):
-
         self.link = "" #Website link
         self.file = "" #File to save link
         self.crawler = crawler
-      
+     
+     
     def sign(self):
         #logo
         self.logo = """  ______                 _ _    _____                    _           
