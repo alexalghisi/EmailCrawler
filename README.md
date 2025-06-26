@@ -1,16 +1,18 @@
 # EmailCrawler
-A simple and fast multi threaded Python mail crawler.
 
+A fast, multi-threaded tool to extract emails from websites, written in Python.
 
+## Features
 
+- Recursive crawling with configurable depth
+- Regex-based email detection
+- Thread-safe parallel crawling
+- CSV output
+- Modular structure with clear CLI
 
-Version 0.0.1
-- Added threads BETA ( join not implemented )
-- Added Queue for links
-- Pages are being crawled now
+## Installation
 
-TBA: 
-- Custom number of threads
-- Join for threads
-- A dictionary ( better Trie ) for links
-- Optimize crawler
+```bash
+git clone https://github.com/alexalghisi/EmailCrawler
+cd EmailCrawler
+pip install -r requirements.txt
