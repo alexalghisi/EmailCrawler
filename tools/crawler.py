@@ -1,7 +1,7 @@
 '''
-Created on Jun 11, 2015
+Created on Jun 26, 2025
 
-@author: nex
+@author: Alghisi Alessandro Paolo
 '''
 
 from multiprocessing import Process, Queue

@@ -1,3 +1,9 @@
+'''
+Created on Jun 26, 2025
+
+@author: Alghisi Alessandro Paolo
+'''
+
 import argparse
 from crawler import crawl_website, emails_found
 from utils import export_to_csv
